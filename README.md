@@ -1,0 +1,1 @@
+# lindo-vtexio-highlight-images
