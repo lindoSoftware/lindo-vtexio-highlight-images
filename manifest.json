@@ -1,0 +1,21 @@
+{
+  "vendor": "lindo",
+  "name": "highlight-images",
+  "version": "0.0.1",
+  "title": "Highlight Images",
+  "description": "Highlight Images",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.render-runtime": "8.x",
+    "vtex.css-handles": "0.x",
+    "vtex.product-context": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

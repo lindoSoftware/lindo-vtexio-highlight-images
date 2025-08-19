@@ -1,0 +1,10 @@
+.greetingWrapper {
+  padding: 1.5rem;
+  background-color: #fffbf0;
+  border: 2px dashed #f3c623;
+  text-align: center;
+  font-family: sans-serif;
+}
+.greetingTitle {
+  color: #cc4a8b;
+}
