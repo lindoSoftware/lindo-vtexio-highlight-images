@@ -10,7 +10,6 @@ type HighlightImagesProps = {
   gap?: number
   imageExtension?: 'png' | 'jpeg'
   maxWidth?: string
-  isSearchResult: boolean
 }
 
 const HighlightImages = ({
