@@ -34,7 +34,7 @@ const HighlightImages = ({
     <div style={{ display: 'flex', flexDirection: 'column', gap: `${gap}px` }}>
       {highlights.map((hl, idx) => {
         const src = `${FILES_PATH}/${hl.name}.${imageExtension}`
-        return hl.name && 
+        return hl.name &&
           (
             <img
               key={`${hl.type}-${hl.name}-${idx}`}
