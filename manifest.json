@@ -1,7 +1,7 @@
 {
   "vendor": "lindo",
   "name": "highlight-images",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "title": "Highlight Images",
   "description": "Highlight Images",
   "builders": {
