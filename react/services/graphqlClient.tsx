@@ -1,4 +1,3 @@
-import { STORE_RESOURCES } from "../utils/config"
 
 export interface GraphQLResponse<T> {
   data: T
@@ -11,7 +10,7 @@ export async function graphqlRequest<T>(
 ): Promise<T> {
   try {
     const response = await fetch(
-      `/_v/private/${STORE_RESOURCES}/graphiql/v1`,
+      "/_v/segment/graphql/v1",
       {
         method: "POST",
         headers: {
